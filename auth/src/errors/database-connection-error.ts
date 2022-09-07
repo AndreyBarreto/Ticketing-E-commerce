@@ -11,6 +11,6 @@ export class DatabaseConnectionError extends CustomError {
   }
 
   serializeErrors() {
-    return [{ message: this.reason }, { message: "batata" }];
+    return [{ message: this.reason }, { message: "Database internal error" }];
   }
 }
