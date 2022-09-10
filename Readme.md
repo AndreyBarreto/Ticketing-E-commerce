@@ -21,3 +21,5 @@ Extensions Used
 Material Icon Theme
 Prettier
 EditorConfig for VS CODE
+
+k create secret generic jwt-secret --from-literal=JWT_KEY=teste
